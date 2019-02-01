@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04B1BEFECF07062008E7F88 /* Pods_PezFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6DBDE7C734756234AA771B /* Pods_PezFlix.framework */; };
 		C4EBDAD82204018F005832E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAD72204018F005832E1 /* AppDelegate.swift */; };
 		C4EBDADA2204018F005832E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAD92204018F005832E1 /* ViewController.swift */; };
 		C4EBDADD2204018F005832E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBDADB2204018F005832E1 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		C4EBDAE22204018F005832E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBDAE02204018F005832E1 /* LaunchScreen.storyboard */; };
 		C4EBDAED2204018F005832E1 /* PezFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAEC2204018F005832E1 /* PezFlixTests.swift */; };
 		C4EBDAF82204018F005832E1 /* PezFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAF72204018F005832E1 /* PezFlixUITests.swift */; };
+		C4EBDB08220409BA005832E1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDB07220409BA005832E1 /* MovieCell.swift */; };
+		D8F40FE6DDCBA030D448D9AC /* Pods_PezFlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F2A43EE8BDC23071F13070 /* Pods_PezFlixUITests.framework */; };
+		E03DBC646B9CE474AD6CAAB3 /* Pods_PezFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2CCC78ADAECF6DF0896D54 /* Pods_PezFlixTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154880E113E5A6841F3E8F4E /* Pods-PezFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlix/Pods-PezFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		3029ACE6EE15CBA8C6636319 /* Pods-PezFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlixUITests/Pods-PezFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3491DE22FDC65230863464D1 /* Pods-PezFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlix.release.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlix/Pods-PezFlix.release.xcconfig"; sourceTree = "<group>"; };
+		553526A81AFCFDA743CF417E /* Pods-PezFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlixTests/Pods-PezFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6DBDE7C734756234AA771B /* Pods_PezFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2CCC78ADAECF6DF0896D54 /* Pods_PezFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A421A53DA057F7C59F1C62B /* Pods-PezFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlixTests/Pods-PezFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7F2A43EE8BDC23071F13070 /* Pods_PezFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBDAD42204018F005832E1 /* PezFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBDAD72204018F005832E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EBDAD92204018F005832E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		C4EBDAF32204018F005832E1 /* PezFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBDAF72204018F005832E1 /* PezFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezFlixUITests.swift; sourceTree = "<group>"; };
 		C4EBDAF92204018F005832E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EBDB07220409BA005832E1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		DA6EC3AC7616F94A31AC281B /* Pods-PezFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezFlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PezFlixUITests/Pods-PezFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04B1BEFECF07062008E7F88 /* Pods_PezFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03DBC646B9CE474AD6CAAB3 /* Pods_PezFlixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F40FE6DDCBA030D448D9AC /* Pods_PezFlixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F3BAB146AD5B7583F64D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154880E113E5A6841F3E8F4E /* Pods-PezFlix.debug.xcconfig */,
+				3491DE22FDC65230863464D1 /* Pods-PezFlix.release.xcconfig */,
+				553526A81AFCFDA743CF417E /* Pods-PezFlixTests.debug.xcconfig */,
+				9A421A53DA057F7C59F1C62B /* Pods-PezFlixTests.release.xcconfig */,
+				3029ACE6EE15CBA8C6636319 /* Pods-PezFlixUITests.debug.xcconfig */,
+				DA6EC3AC7616F94A31AC281B /* Pods-PezFlixUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		555E3E63D33E591F5DD5D97B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6DBDE7C734756234AA771B /* Pods_PezFlix.framework */,
+				6D2CCC78ADAECF6DF0896D54 /* Pods_PezFlixTests.framework */,
+				A7F2A43EE8BDC23071F13070 /* Pods_PezFlixUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4EBDACB2204018F005832E1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				C4EBDAEB2204018F005832E1 /* PezFlixTests */,
 				C4EBDAF62204018F005832E1 /* PezFlixUITests */,
 				C4EBDAD52204018F005832E1 /* Products */,
+				51F3BAB146AD5B7583F64D1E /* Pods */,
+				555E3E63D33E591F5DD5D97B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +142,7 @@
 				C4EBDAD72204018F005832E1 /* AppDelegate.swift */,
 				C4EBDAD92204018F005832E1 /* ViewController.swift */,
 				C4EBDADB2204018F005832E1 /* Main.storyboard */,
+				C4EBDB07220409BA005832E1 /* MovieCell.swift */,
 				C4EBDADE2204018F005832E1 /* Assets.xcassets */,
 				C4EBDAE02204018F005832E1 /* LaunchScreen.storyboard */,
 				C4EBDAE32204018F005832E1 /* Info.plist */,
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4EBDAFC2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlix" */;
 			buildPhases = (
+				C1052C91139BC2E22B3ED199 /* [CP] Check Pods Manifest.lock */,
 				C4EBDAD02204018F005832E1 /* Sources */,
 				C4EBDAD12204018F005832E1 /* Frameworks */,
 				C4EBDAD22204018F005832E1 /* Resources */,
+				6708A9132C29E4BD4340EA70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4EBDAFF2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixTests" */;
 			buildPhases = (
+				08BB720DDFAD1DBC1D9D934B /* [CP] Check Pods Manifest.lock */,
 				C4EBDAE42204018F005832E1 /* Sources */,
 				C4EBDAE52204018F005832E1 /* Frameworks */,
 				C4EBDAE62204018F005832E1 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4EBDB022204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixUITests" */;
 			buildPhases = (
+				9C7712E322D86969197D8383 /* [CP] Check Pods Manifest.lock */,
 				C4EBDAEF2204018F005832E1 /* Sources */,
 				C4EBDAF02204018F005832E1 /* Frameworks */,
 				C4EBDAF12204018F005832E1 /* Resources */,
@@ -251,6 +298,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08BB720DDFAD1DBC1D9D934B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezFlixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6708A9132C29E4BD4340EA70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PezFlix/Pods-PezFlix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PezFlix/Pods-PezFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7712E322D86969197D8383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezFlixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1052C91139BC2E22B3ED199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4EBDAD02204018F005832E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +398,7 @@
 			files = (
 				C4EBDADA2204018F005832E1 /* ViewController.swift in Sources */,
 				C4EBDAD82204018F005832E1 /* AppDelegate.swift in Sources */,
+				C4EBDB08220409BA005832E1 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +571,13 @@
 		};
 		C4EBDAFD2204018F005832E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154880E113E5A6841F3E8F4E /* Pods-PezFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLWZ722TCU;
 				INFOPLIST_FILE = PezFlix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +591,13 @@
 		};
 		C4EBDAFE2204018F005832E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3491DE22FDC65230863464D1 /* Pods-PezFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLWZ722TCU;
 				INFOPLIST_FILE = PezFlix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +611,7 @@
 		};
 		C4EBDB002204018F005832E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553526A81AFCFDA743CF417E /* Pods-PezFlixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +633,7 @@
 		};
 		C4EBDB012204018F005832E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A421A53DA057F7C59F1C62B /* Pods-PezFlixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +655,7 @@
 		};
 		C4EBDB032204018F005832E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3029ACE6EE15CBA8C6636319 /* Pods-PezFlixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +676,7 @@
 		};
 		C4EBDB042204018F005832E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6EC3AC7616F94A31AC281B /* Pods-PezFlixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
