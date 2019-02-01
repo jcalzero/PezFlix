@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EBDAD82204018F005832E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAD72204018F005832E1 /* AppDelegate.swift */; };
+		C4EBDADA2204018F005832E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAD92204018F005832E1 /* ViewController.swift */; };
+		C4EBDADD2204018F005832E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBDADB2204018F005832E1 /* Main.storyboard */; };
+		C4EBDADF2204018F005832E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EBDADE2204018F005832E1 /* Assets.xcassets */; };
+		C4EBDAE22204018F005832E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBDAE02204018F005832E1 /* LaunchScreen.storyboard */; };
+		C4EBDAED2204018F005832E1 /* PezFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAEC2204018F005832E1 /* PezFlixTests.swift */; };
+		C4EBDAF82204018F005832E1 /* PezFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBDAF72204018F005832E1 /* PezFlixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EBDAE92204018F005832E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EBDACC2204018F005832E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EBDAD32204018F005832E1;
+			remoteInfo = PezFlix;
+		};
+		C4EBDAF42204018F005832E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EBDACC2204018F005832E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EBDAD32204018F005832E1;
+			remoteInfo = PezFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4EBDAD42204018F005832E1 /* PezFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EBDAD72204018F005832E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4EBDAD92204018F005832E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4EBDADC2204018F005832E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EBDADE2204018F005832E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EBDAE12204018F005832E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EBDAE32204018F005832E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EBDAE82204018F005832E1 /* PezFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EBDAEC2204018F005832E1 /* PezFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezFlixTests.swift; sourceTree = "<group>"; };
+		C4EBDAEE2204018F005832E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EBDAF32204018F005832E1 /* PezFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EBDAF72204018F005832E1 /* PezFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezFlixUITests.swift; sourceTree = "<group>"; };
+		C4EBDAF92204018F005832E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EBDAD12204018F005832E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAE52204018F005832E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAF02204018F005832E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EBDACB2204018F005832E1 = {
+			isa = PBXGroup;
+			children = (
+				C4EBDAD62204018F005832E1 /* PezFlix */,
+				C4EBDAEB2204018F005832E1 /* PezFlixTests */,
+				C4EBDAF62204018F005832E1 /* PezFlixUITests */,
+				C4EBDAD52204018F005832E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EBDAD52204018F005832E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBDAD42204018F005832E1 /* PezFlix.app */,
+				C4EBDAE82204018F005832E1 /* PezFlixTests.xctest */,
+				C4EBDAF32204018F005832E1 /* PezFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EBDAD62204018F005832E1 /* PezFlix */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBDAD72204018F005832E1 /* AppDelegate.swift */,
+				C4EBDAD92204018F005832E1 /* ViewController.swift */,
+				C4EBDADB2204018F005832E1 /* Main.storyboard */,
+				C4EBDADE2204018F005832E1 /* Assets.xcassets */,
+				C4EBDAE02204018F005832E1 /* LaunchScreen.storyboard */,
+				C4EBDAE32204018F005832E1 /* Info.plist */,
+			);
+			path = PezFlix;
+			sourceTree = "<group>";
+		};
+		C4EBDAEB2204018F005832E1 /* PezFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBDAEC2204018F005832E1 /* PezFlixTests.swift */,
+				C4EBDAEE2204018F005832E1 /* Info.plist */,
+			);
+			path = PezFlixTests;
+			sourceTree = "<group>";
+		};
+		C4EBDAF62204018F005832E1 /* PezFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBDAF72204018F005832E1 /* PezFlixUITests.swift */,
+				C4EBDAF92204018F005832E1 /* Info.plist */,
+			);
+			path = PezFlixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EBDAD32204018F005832E1 /* PezFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EBDAFC2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlix" */;
+			buildPhases = (
+				C4EBDAD02204018F005832E1 /* Sources */,
+				C4EBDAD12204018F005832E1 /* Frameworks */,
+				C4EBDAD22204018F005832E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PezFlix;
+			productName = PezFlix;
+			productReference = C4EBDAD42204018F005832E1 /* PezFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EBDAE72204018F005832E1 /* PezFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EBDAFF2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixTests" */;
+			buildPhases = (
+				C4EBDAE42204018F005832E1 /* Sources */,
+				C4EBDAE52204018F005832E1 /* Frameworks */,
+				C4EBDAE62204018F005832E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EBDAEA2204018F005832E1 /* PBXTargetDependency */,
+			);
+			name = PezFlixTests;
+			productName = PezFlixTests;
+			productReference = C4EBDAE82204018F005832E1 /* PezFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EBDAF22204018F005832E1 /* PezFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EBDB022204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixUITests" */;
+			buildPhases = (
+				C4EBDAEF2204018F005832E1 /* Sources */,
+				C4EBDAF02204018F005832E1 /* Frameworks */,
+				C4EBDAF12204018F005832E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EBDAF52204018F005832E1 /* PBXTargetDependency */,
+			);
+			name = PezFlixUITests;
+			productName = PezFlixUITests;
+			productReference = C4EBDAF32204018F005832E1 /* PezFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EBDACC2204018F005832E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Julien Calfayan";
+				TargetAttributes = {
+					C4EBDAD32204018F005832E1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C4EBDAE72204018F005832E1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C4EBDAD32204018F005832E1;
+					};
+					C4EBDAF22204018F005832E1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C4EBDAD32204018F005832E1;
+					};
+				};
+			};
+			buildConfigurationList = C4EBDACF2204018F005832E1 /* Build configuration list for PBXProject "PezFlix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EBDACB2204018F005832E1;
+			productRefGroup = C4EBDAD52204018F005832E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EBDAD32204018F005832E1 /* PezFlix */,
+				C4EBDAE72204018F005832E1 /* PezFlixTests */,
+				C4EBDAF22204018F005832E1 /* PezFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EBDAD22204018F005832E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBDAE22204018F005832E1 /* LaunchScreen.storyboard in Resources */,
+				C4EBDADF2204018F005832E1 /* Assets.xcassets in Resources */,
+				C4EBDADD2204018F005832E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAE62204018F005832E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAF12204018F005832E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EBDAD02204018F005832E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBDADA2204018F005832E1 /* ViewController.swift in Sources */,
+				C4EBDAD82204018F005832E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAE42204018F005832E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBDAED2204018F005832E1 /* PezFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBDAEF2204018F005832E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBDAF82204018F005832E1 /* PezFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EBDAEA2204018F005832E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EBDAD32204018F005832E1 /* PezFlix */;
+			targetProxy = C4EBDAE92204018F005832E1 /* PBXContainerItemProxy */;
+		};
+		C4EBDAF52204018F005832E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EBDAD32204018F005832E1 /* PezFlix */;
+			targetProxy = C4EBDAF42204018F005832E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EBDADB2204018F005832E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EBDADC2204018F005832E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EBDAE02204018F005832E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EBDAE12204018F005832E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EBDAFA2204018F005832E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4EBDAFB2204018F005832E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EBDAFD2204018F005832E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EBDAFE2204018F005832E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4EBDB002204018F005832E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezFlix.app/PezFlix";
+			};
+			name = Debug;
+		};
+		C4EBDB012204018F005832E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezFlix.app/PezFlix";
+			};
+			name = Release;
+		};
+		C4EBDB032204018F005832E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezFlix;
+			};
+			name = Debug;
+		};
+		C4EBDB042204018F005832E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PezIO.PezFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EBDACF2204018F005832E1 /* Build configuration list for PBXProject "PezFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBDAFA2204018F005832E1 /* Debug */,
+				C4EBDAFB2204018F005832E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EBDAFC2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBDAFD2204018F005832E1 /* Debug */,
+				C4EBDAFE2204018F005832E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EBDAFF2204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBDB002204018F005832E1 /* Debug */,
+				C4EBDB012204018F005832E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EBDB022204018F005832E1 /* Build configuration list for PBXNativeTarget "PezFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBDB032204018F005832E1 /* Debug */,
+				C4EBDB042204018F005832E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EBDACC2204018F005832E1 /* Project object */;
+}
