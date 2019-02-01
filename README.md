@@ -22,4 +22,4 @@ PezFlix is an app that allows users to browse movies from the [The Movie Databas
 <img src=http://g.recordit.co/qE7FE909kd.gif width=250><br>
 
 ### Notes
-The only issues I encountered was autolayout but I was able to figure it out!
+The only issue I encountered was autolayout but I was able to figure it out!
