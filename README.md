@@ -19,7 +19,7 @@ PezFlix is an app that allows users to browse movies from the [The Movie Databas
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src=http://g.recordit.co/qE7FE909kd.gif width=250><br>
+<img src=http://g.recordit.co/avOtPep3Fa.gif width=250><br>
 
 ### Notes
 The only issue I encountered was autolayout but I was able to figure it out!
