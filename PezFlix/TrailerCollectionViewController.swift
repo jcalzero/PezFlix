@@ -39,4 +39,7 @@ class TrailerCollectionViewController: UIViewController {
         }
         task.resume()
     }
+    @IBAction func returnButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }

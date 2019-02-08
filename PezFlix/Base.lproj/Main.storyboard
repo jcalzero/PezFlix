@@ -186,7 +186,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="TRAILER" image="kisspng-youtube-play-button-computer-icons-diamon-5ac95a49776067.933066421523145289489"/>
                                 <connections>
-                                    <segue destination="krM-mI-9yv" kind="show" id="Sym-Zc-T5y"/>
+                                    <segue destination="krM-mI-9yv" kind="presentation" modalTransitionStyle="coverVertical" id="Sym-Zc-T5y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,10 +213,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uhi-US-0b5">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ki-iO-mO0">
+                                <rect key="frame" x="16" y="20" width="63" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="23"/>
+                                <state key="normal" title="Return"/>
+                                <connections>
+                                    <action selector="returnButton:" destination="GBk-Bz-221" eventType="touchUpInside" id="LMw-JP-9PV"/>
+                                    <action selector="returnButton:" destination="krM-mI-9yv" eventType="touchUpInside" id="jNN-cH-4om"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3hs-OL-Sss"/>
@@ -285,7 +295,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="TRAILER" image="kisspng-youtube-play-button-computer-icons-diamon-5ac95a49776067.933066421523145289489"/>
                                 <connections>
-                                    <segue destination="GBk-Bz-221" kind="show" id="5wb-vK-HVq"/>
+                                    <segue destination="GBk-Bz-221" kind="presentation" modalTransitionStyle="coverVertical" id="5wb-vK-HVq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,10 +322,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwI-l3-lXk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="68" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOD-RP-1WJ">
+                                <rect key="frame" x="16" y="20" width="63" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="23"/>
+                                <state key="normal" title="Return"/>
+                                <connections>
+                                    <action selector="returnButton:" destination="GBk-Bz-221" eventType="touchUpInside" id="Hzc-fc-lgl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="P6A-Hl-5N6"/>
@@ -326,7 +345,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hXS-eo-hOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="321" y="2276"/>
+            <point key="canvasLocation" x="320.80000000000001" y="2275.4122938530736"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="AUq-hZ-zuu">
