@@ -1,23 +1,23 @@
 //
-//  TrailerViewController.swift
+//  TrailerCollectionViewController.swift
 //  PezFlix
 //
-//  Created by Julien Calfayan on 2/7/19.
+//  Created by Julien Calfayan on 2/8/19.
 //  Copyright © 2019 Julien Calfayan. All rights reserved.
 //
 
 import UIKit
 
-class TrailerViewController: UIViewController {
+class TrailerCollectionViewController: UIViewController {
 
     var movie: [String:Any]!
     var trailerKey = [[String:Any]]()
-
+    
     @IBOutlet var trailerVideo: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let movieID = movie["id"] as! Int
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/\(movieID)/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!

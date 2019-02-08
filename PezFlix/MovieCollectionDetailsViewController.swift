@@ -40,6 +40,10 @@ class MovieCollectionDetailsViewController: UIViewController {
         backdropView.af_setImage(withURL: backdropURL!)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! TrailerCollectionViewController
+        vc.movie = movie
+    }
 
     /*
     // MARK: - Navigation

@@ -21,6 +21,11 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refreshControlAction(_:)), for: UIControl.Event.valueChanged)
+        // add refresh control to table view
+        collectionView.insertSubview(refreshControl, at: 0)
+        
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
         layout.minimumLineSpacing = 0
@@ -65,6 +70,36 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         
         
         return cell
+    }
+    
+    @objc func refreshControlAction(_ refreshControl: UIRefreshControl) {
+        
+        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
+        
+        let width = (view.frame.size.width - layout.minimumInteritemSpacing * 2) / 2
+        layout.itemSize = CGSize(width: width, height: width * 2.75 / 2)
+        
+        let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+        let task = session.dataTask(with: request) { (data, response, error) in
+            // This will run when the network request returns
+            if let error = error {
+                print(error.localizedDescription)
+            } else if let data = data {
+                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                
+                self.movies = dataDictionary["results"] as! [[String:Any]]
+                // TODO: Store the movies in a property to use elsewhere
+                // TODO: Reload your table view data
+                self.collectionView.reloadData()
+            }
+        }
+        task.resume()
+        refreshControl.endRefreshing()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

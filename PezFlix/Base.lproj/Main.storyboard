@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="851"/>
+            <point key="canvasLocation" x="321" y="851"/>
         </scene>
         <!--PezFlix - SuperHero-->
         <scene sceneID="X3T-ZG-pub">
@@ -180,6 +180,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14M-il-YXA">
+                                <rect key="frame" x="39" y="284" width="79" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="TRAILER" image="kisspng-youtube-play-button-computer-icons-diamon-5ac95a49776067.933066421523145289489"/>
+                                <connections>
+                                    <segue destination="krM-mI-9yv" kind="show" id="Sym-Zc-T5y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="akU-q2-oQF"/>
@@ -193,7 +202,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Epl-XR-5d6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1822" y="1567"/>
+            <point key="canvasLocation" x="1821.5999999999999" y="1566.5667166416792"/>
+        </scene>
+        <!--Trailer Collection View Controller-->
+        <scene sceneID="cO6-ZK-MBX">
+            <objects>
+                <viewController id="krM-mI-9yv" customClass="TrailerCollectionViewController" customModule="PezFlix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q5i-IY-DRm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uhi-US-0b5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3hs-OL-Sss"/>
+                    </view>
+                    <connections>
+                        <outlet property="trailerVideo" destination="Uhi-US-0b5" id="GMx-sO-h5q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gd-DC-Mcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1821.5999999999999" y="2276.3118440779613"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="msM-DO-AhH">
@@ -246,11 +280,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnD-VB-aYG">
-                                <rect key="frame" x="16" y="210" width="125" height="200"/>
+                                <rect key="frame" x="39" y="285" width="79" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="now_playing_tabbar_item"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="TRAILER" image="kisspng-youtube-play-button-computer-icons-diamon-5ac95a49776067.933066421523145289489"/>
                                 <connections>
-                                    <segue destination="GBk-Bz-221" kind="presentation" id="5wb-vK-HVq"/>
+                                    <segue destination="GBk-Bz-221" kind="show" id="5wb-vK-HVq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -266,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5xh-1y-Q9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="1566.5667166416792"/>
+            <point key="canvasLocation" x="321" y="1567"/>
         </scene>
         <!--Trailer View Controller-->
         <scene sceneID="VGe-jS-JFg">
@@ -277,9 +312,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwI-l3-lXk">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -291,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hXS-eo-hOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="2277.2113943028489"/>
+            <point key="canvasLocation" x="321" y="2276"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="AUq-hZ-zuu">
@@ -314,7 +349,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5K-Dn-hvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="322" y="134"/>
         </scene>
         <!--SuperHero-->
         <scene sceneID="Txu-0h-53y">
@@ -341,6 +376,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="kisspng-youtube-play-button-computer-icons-diamon-5ac95a49776067.933066421523145289489" width="1024" height="721"/>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
