@@ -38,7 +38,6 @@ class MovieDetailsViewController: UIViewController {
         backdropView.af_setImage(withURL: backdropURL!)
     }
     
-
     /*
     // MARK: - Navigation
 

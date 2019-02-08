@@ -44,6 +44,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         task.resume()
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
@@ -97,7 +98,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let detailsViewController = segue.destination as! MovieDetailsViewController
         detailsViewController.movie = movie
-        
         
         tableView.deselectRow(at: indexPath, animated: true)
     }

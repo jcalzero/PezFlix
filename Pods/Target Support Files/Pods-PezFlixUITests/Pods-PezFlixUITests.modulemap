@@ -1,0 +1,6 @@
+framework module Pods_PezFlixUITests {
+  umbrella header "Pods-PezFlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
