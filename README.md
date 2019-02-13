@@ -11,11 +11,13 @@ PezFlix is an app that allows users to browse movies from the [The Movie Databas
 - [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
+- [x] (Personal Bonus) The table and collection views both have Pull to Refresh to call the API again in case there are any changes made.
+
 ### App Walkthough GIF
 <img src=http://g.recordit.co/Ey4GQM9YHi.gif width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Only challenge I had was being able to access the youtube key to be able to pull the trailer for the movie. I was however, with the assistance of my teachers, able to figure it out and get it to work!
 
 ---
 
